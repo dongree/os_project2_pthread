@@ -4,7 +4,7 @@
 
 ## 주요 함수
 
-1. pthread_create(pthread_t *th_id, const pthread_attr_t *attr, void* 함수명, void *arg)
+1. pthread_create(pthread_t *th_id, const pthread_attr_t *attr, void* 함수명, void *arg)  
    pthread를 생성하는 함수이다.
 2. pthread_join(pthread_t th_id, void\*\* thread_return)  
    특정 pthread가 종료되는 것을 기다리는 함수이다.
